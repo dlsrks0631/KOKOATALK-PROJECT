@@ -1,7 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Open+Sans:wght@400;600&family=Rubik+Dirt&display=swap");
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 90px 0px;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.welcome-header__text {
+  width: 60%;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  border: none;
+  font-size: 18px;
+  padding: 15px 0px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: border-color 0.5s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
 }
