@@ -9,7 +9,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
-@import "components/alt-screen-header";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/login-form.css";
@@ -17,6 +17,7 @@
 @import "screens/friends2.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 
 body {
   font-family: "Patrick Hand", cursive;
