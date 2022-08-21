@@ -9,12 +9,18 @@
   padding: 5px 3px;
 }
 
+.status-bar__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 8px;
+}
 .status-bar__column:first-child span {
   font-size: 19px;
   margin-right: 5px;
 }
 .status-bar__column:nth-child(2) span {
   font-size: 19px;
+  position: fixed;
 }
 
 .status-bar__column:nth-child(3) span {
@@ -28,10 +34,18 @@
 
 .status-bar__column:last-child {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+}
+.status-bar__column:last-child i:last-child {
+  margin-right: 8px;
 }
 
 .status-bar__column .fa-battery-full {
   margin: 0px 3px;
+}
+
+.status-bar {
+  position: fixed;
+  width: 100%;
 }
