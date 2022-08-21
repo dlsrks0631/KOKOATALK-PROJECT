@@ -6,6 +6,9 @@
   align-items: center;
 }
 
+.alt-header {
+  padding-top: 40px;
+}
 .alt-header__title {
   font-size: 25px;
   font-weight: 600;
