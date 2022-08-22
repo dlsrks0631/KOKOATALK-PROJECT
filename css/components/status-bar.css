@@ -9,6 +9,11 @@
   padding: 5px 3px 10px 3px;
 }
 
+.index_status-bar {
+  position: absolute;
+  top: 0;
+}
+
 .status-bar__column:first-child {
   display: flex;
   justify-content: flex-start;
