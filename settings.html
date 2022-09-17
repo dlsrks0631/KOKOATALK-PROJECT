@@ -5,23 +5,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings - Kokoa Talk</title>
+    <title>설정 - 코코아톡</title>
+    <link
+    rel="shortcut icon"
+    type="image/3x-icon"
+    href="https://img.freepik.com/premium-vector/vintage-cocoa-fruit-logo-cocoa-bean-cocoa-plant-logo-icon-vector-template_111630-542.jpg?w=360"
+  />
   </head>
   <body>
-    <div class="status-bar">
+    <div class="status-bar index_status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
-        <!--와이파이 아이콘 넣기-->
+        <span>서비스 없음</span>
         <i class="fa-solid fa-wifi"></i>
       </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
+      <div class="status-bar__column" id="clock"></div>
       <div class="status-bar__column">
         <span>110%</span>
-        <!--배터리 아이콘-->
         <i class="fa-solid fa-battery-full"></i>
-        <!--불빛 아이콘-->
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
@@ -31,7 +31,7 @@
         <a href="more.html"><i class="fa-solid fa-angle-left fa-lg"></i></a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">Settings</h1>
+        <h1 class="alt-header__title">설정</h1>
       </div>
       <div class="alt-header__column">
         <i class="fa-solid fa-magnifying-glass fa-lg"></i>
@@ -43,55 +43,55 @@
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-solid fa-bullhorn"></i>
-              <span>Notices</span>
+              <span>공지사항</span>
             </div>
           </li>
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-solid fa-flask"></i>
-              <span>Kakao Lab</span>
+              <span>실험실</span>
             </div>
           </li>
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-solid fa-circle-info"></i>
-              <span>Version</span>
+              <span>버전정보</span>
             </div>
             <div class="settings-setting-column2">
-              <span>Latest Version</span>
+              <span>9.8.7</span>
             </div>
           </li>
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-solid fa-lock"></i>
-              <span>Privacy</span>
+              <span>개인/보안</span>
             </div>
           </li>
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-solid fa-bell"></i>
-              <span>Notification</span>
+              <span>알림</span>
             </div>
           </li>
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-regular fa-user"></i>
-              <span>Friends</span>
+              <span>친구</span>
             </div>
           </li>
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-regular fa-comment"></i>
-              <span>Chats</span>
+              <span>채팅</span>
             </div>
           </li>
           <li class="settings-setting">
             <div class="settings-setting-column">
               <i class="fa-regular fa-face-angry"></i>
-              <span>Angry</span>
+              <span>테마</span>
             </div>
             <div class="settings-setting-column2">
-              <span>No icon</span>
+              <span>시스템 설정 모드</span>
             </div>
           </li>
         </ul>
@@ -119,5 +119,7 @@
       src="https://kit.fontawesome.com/7e9d496250.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/clock.js"></script>
+
   </body>
 </html>
