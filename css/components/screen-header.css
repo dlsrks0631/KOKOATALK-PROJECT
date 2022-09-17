@@ -1,3 +1,7 @@
+html {
+  background-color: var(--white);
+}
+
 .screen-header {
   display: flex;
   justify-content: space-between;
@@ -5,13 +9,22 @@
   padding: var(--horizontal-space);
   margin-bottom: 15px;
 }
+
+.screen-header i:hover {
+  color: var(--green);
+}
+
+.screen-header span {
+  cursor: pointer;
+}
+
 .screen-header {
-  padding-top: 40px;
+  padding-top: 17px;
 }
 
 .screen-header__title {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 23px;
+  font-weight: 1000;
 }
 
 .screen-header__icons span {

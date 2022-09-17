@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @import "reset.css";
 @import "variables.css";
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
 
 /* Components */
 @import "components/status-bar.css";
@@ -22,7 +22,7 @@
 @import "screens/chat.css";
 
 body {
-  font-family: "Patrick Hand", cursive;
+  font-family: "Hanna", sans-serif;
 }
 
 .main-screen {

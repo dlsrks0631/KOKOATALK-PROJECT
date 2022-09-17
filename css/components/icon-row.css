@@ -1,6 +1,12 @@
 .icon-row {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+}
+
+.icon-row i:hover {
+  cursor: pointer;
+  color: var(--green);
 }
 
 .icon-row_icon {

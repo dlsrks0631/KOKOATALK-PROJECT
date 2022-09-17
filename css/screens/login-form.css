@@ -1,3 +1,7 @@
+.index__background {
+  background-color: var(--white);
+}
+
 .welcome-header {
   display: flex;
   justify-content: center;
@@ -10,6 +14,7 @@
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .welcome-header__text {
@@ -25,8 +30,9 @@
 #login-form input {
   border: none;
   font-size: 18px;
-  padding: 15px 0px;
+  padding: 7px 0px;
   margin-bottom: 20px;
+  background-color: var(--white);
 }
 
 #login-form input:not([type="submit"]) {
@@ -36,14 +42,14 @@
 
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--green);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
   cursor: pointer;
   padding: 20px;
   border-radius: 5px;
@@ -54,4 +60,74 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+.find__password {
+  display: flex;
+  justify-content: space-between;
+}
+
+.or {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.or span {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: -5px;
+}
+.or__div {
+  height: 2px;
+  width: 46.5%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.qrqr {
+  border: none;
+  font-size: 15px;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form .login__submit {
+  font-size: 15px;
+}
+
+#login-form .login__submit {
+  background-color: var(--green);
+}
+#login-form .login__submit:hover {
+  color: white;
+  background-color: black;
+}
+
+#login-form .qrqr:hover {
+  background-color: black;
+  color: white;
+}
+
+.check {
+  position: relative;
+  top: -7px;
+  font-size: 7px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.check i {
+  padding: 2px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#login-form .check:hover {
+  color: black;
+}
+
+.find__password__div a:first-child {
+  margin-right: 5px;
 }

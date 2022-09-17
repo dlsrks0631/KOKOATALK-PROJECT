@@ -6,6 +6,11 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: var(--green);
+}
+
+.nav i:hover {
+  color: var(--yellow);
 }
 
 .nav__list {

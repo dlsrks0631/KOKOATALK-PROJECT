@@ -2,6 +2,10 @@
   margin-top: 25px;
 }
 
+.more-suggestions i:hover {
+  color: var(--yellow);
+}
+
 .more-suggestions__title {
   margin-top: 25px;
   border-top: var(--main--border);
@@ -23,7 +27,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--green);
   border-radius: 10px;
   display: flex;
   justify-content: center;
